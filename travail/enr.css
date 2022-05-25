@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(219, 203, 182);
+}
+h1
+{
+    text-align: center;
+}
+#deux
+{
+    margin-top: 4%;
+}
+#des
+{
+    width: 20%;
+    height: 8em;
+}
+div
+{
+    margin-top: 4%;
+}
+label
+{
+    display: block
+    font:1rem 'fira sans',sans-serif;
+}
+input,label
+{
+    margin: .4rem 0;
+}

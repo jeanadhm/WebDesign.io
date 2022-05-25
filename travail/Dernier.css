@@ -1,0 +1,83 @@
+body
+{
+    background-color: rgb(224, 210, 146);
+}
+h1{
+    color: rgb(211, 138, 116);
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 5px 5px 2px black;
+}
+#photo
+{
+    width: 15%;
+    height: 300px;
+    float: left;
+    margin: 20px 0px 0px 20px;
+    position: absolute;
+}
+#logo
+{
+    width: 25%;
+    height: 200px;
+    float: right;
+    margin: 20px 20px 0px 0px;
+    position: relative;
+}
+.one
+{
+    background-color: rgb(161, 159, 150);
+    margin-top: 5%;
+    font-size: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.two
+{
+    background-color: rgb(161, 159, 150);
+    margin-top: 10%;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.three
+{
+    background-color: rgb(161, 159, 150);
+    margin-top: 10%;
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+legend
+{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+}
+u
+{
+    color: rgb(226, 119, 32);
+    background-color: rgb(236, 241, 226);
+}
+#wel
+{
+    font-size: 30px;
+    color: red;
+}
+footer
+{
+    font-size: 100px;
+}
+table
+{
+    background-color: tomato;
+}
+#moi
+{
+    width:  25%;
+    height: 200px;
+    margin: 20px 20px 0px 0px;
+    position: relative;  
+}

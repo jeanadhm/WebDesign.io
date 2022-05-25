@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+				<meta charset="UTF-8">
+				<title>Formulaire</title>
+				<link rel="stylesheet" type="text/css" href="cm.css">
+				<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body bgcolor="violet#ff0073#ff15e7">
+				<p>
+								<fieldset>	
+												<legend><marquee> Vos informations </marquee></legend>
+					</p>
+					<p>	
+			<label --bs-blue>Nom:</label>	<input type ="text"/>
+			</p>
+			<p>
+			<label>Prénoms:</label> <input type="text"/>
+			</p>
+			<p>
+							<label id="a">Description</label> <textarea name="precisions"id="précisions"cols="40"tabindex="80"></textarea>
+							<p><u> Sexe</u></p>
+											<input type="radio" name="sexe" value="F"/> <label for="sexe">F</label></br>
+											<input type="radio" name="sexe" value="M"/> <label for="sexe">M</label>
+											</fieldset>
+											<fieldset>
+															<legend><u><marquee>Compte d'accès</marquee></u></legend>
+															<p><label >Login:</label></label> <input type="text"/></p>
+															<p><label>Mot de passe:</label> <input type="text"/></p>
+											</fieldset>
+											<fieldset>
+											<legend><u><marquee>Diplômes</marquee></u></legend>
+										<p><label for="CEP">CEP</label></br> <input type="checkbox" name="CEP" id="CEP"/></p>
+										<p> <label for="BEPC">BEPC</label></br> <input type="checkbox" name="BEPC" id="BEPC"/></p>
+									<p>	<label for="BAC">BAC</label></br> <input type="checkbox" name="BAC" id="BAC"/></p>
+									</fieldset>
+							<p> <label for="Loisirs">Loisirs</label></br>
+							<select name="Loisirs" id="Loisirs">
+											<option value="Football">Football</option>
+											<option value="Dance">Dance</option>
+											<option value="Musique">Musique</option>
+											<option value="Sport">Sport</option>
+							</select>
+							</p>		
+							<p id="a"> <input type="submit" value="Enregistrer"></p>
+						<p id="b"><input type="submit" value="Quitter" ></p>						
+						</fieldset>
+			</p>
+</body>
+</html>

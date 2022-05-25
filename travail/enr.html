@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>enregistrement.com</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yyD65VohhpuuCCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    </head>
+    <body style=" display: flex;align-items: center;flex-wrap: wrap;justify-content: space-around;background: radial-gradient(#FFF,#CFD6D6);">
+        <h1><marquee behavior="ALTERNATE" direction="ALTERNATE"> -Enregistrement-</marquee></h1>
+       <div class="container">
+           <div class="row" style="background-color: rgb(250, 185, 185);">
+               <div class="col-md-6">
+        <fieldset>
+            <legend>Informations personnelles</legend>
+            <legend><b><u> Etat civil </u></b></legend>
+            <p><label for="nom"> Nom:&nbsp;&nbsp; <input type="text" id="nom" placeholder="Votre nom"></label></p>
+            <p><label for="prenom">Prénoms:&nbsp;&nbsp; <input type="text" id="prenom" placeholder="Votre prénom"></label></p>
+            <p><label for="start">Votre date de naissance:</label></p>
+            <input type="month" id="start" name="start" min="1950-01-01" value="2022-12"><br><br>
+            <p><label for="email">Email:&nbsp;&nbsp;<input type="text" id="email" placeholder="johnturan@gmail.com"></label></p> 
+            <p><label for="des" >Description: <br></label>&nbsp;&nbsp;<textarea name="text" id="des" cols="30" rows="10" placeholder="Description"></textarea></p>
+        </div>
+    <div class="col-md-6"><br><br><br><br>
+    <p><b><u> Sexe</u></b></p>
+        <input type="radio" name="sexe" value="Masculin"/> <label for="sexe">Masculin</label>&nbsp;&nbsp;
+        <input type="radio" name="sexe" value="Feminin"/> <label for="sexe">Féminin</label>
+        <input type="radio" name="sexe" value="Autre"/> <label for="sexe">Autres</label>
+    
+        <P><b><u>Diplômes</u></b></P>
+										<p><label for="CEP">CEP</label><input type="checkbox" name="CEP" id="CEP"/></p>
+										<p> <label for="BEPC">BEPC</label><input type="checkbox" name="BEPC" id="BEPC"/></p>
+									    <p><label for="BAC">BAC</label><input type="checkbox" name="BAC" id="BAC"/></p>
+                                        <p> <label for="Loisirs"><b><u>Loisirs</u><b></label></p>
+                                            <select name="Loisirs" id="Loisirs"> 
+                                                            <option value="Football">Football</option>
+                                                            <option value="Dance">Lecture</option>
+                                                            <option value="Musique">Musique</option>
+                                                            <option value="Sport">Sport</option>
+                                                            <option value="jeux">Jeux-vidéos</option>
+                                                            <option value="Dance">Dance</option>
+                                                            <option value="Sortie">Sortie</option>
+                                            </select><br><br>
+                                        <p><label for="Pays" id="Pays"><b><u> Pays</u></b></label></p>
+                                        <select name="Pays" id="Pays"> 
+                                            <option value="Benin">Benin</option>
+                                            <option value="Togo">Togo</option>
+                                            <option value="Ghana">Ghana</option>
+                                            <option value="France">France</option>
+                                            <option value="Nigéria">Nigéria</option>
+                                            <option value="Allemagne">Allemagne</option>
+                                            <option value="Russie">Russie</option>
+                                            <option value="Ukraine">Ukraine</option>
+                            </select><br><br>
+    </div>
+    <div class="row">
+                            <div class="col-md-12">
+    <legend><br><u>Envoyez votre photo</u></legend><br><br>
+        <input type="file" name="fichier" accept="image"/>?
+        <input type="hidden" name="MAX_FILE_SIZE" value="1000">
+        <br><br>
+        <button class="btn btn-primary" type="reset">Effacer</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="enre.html"> Inscription</a><br>
+    </form>
+        <br><br>
+    </fieldset><br>
+    <fieldset id="deux">
+    </div>
+</div>
+</div>
+        <div class="row"  style="background-color: rgb(250, 185, 185);margin-top: 30px;">
+            <div class="col-md-12" >
+            <legend>Compte Acces</legend>
+            <p><label for="login">login &nbsp;&nbsp; <input type="text" id="login"></label></p>
+            <p><label for="mdp"> Password &nbsp;&nbsp; <input type="password" id="mdp"></label></p>
+        </fieldset><br>
+        <a href="enre.html">Connexion</a>
+    </div>
+</div>
+    </body>
+</html>
